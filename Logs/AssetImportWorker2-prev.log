@@ -1,0 +1,906 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.9f1 (ad3870b89536) revision 11352176'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreSingleLanguage' Language: 'ru' Physical Memory: 32469 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Denis/Game_Prototype
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+56708
+Successfully changed project path to: C:/Users/Denis/Game_Prototype
+C:/Users/Denis/Game_Prototype
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 78.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.9f1 (ad3870b89536)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Denis/Game_Prototype/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 Ti Laptop GPU (ID=0x2420)
+    Vendor:   NVIDIA
+    VRAM:     16189 MB
+    Driver:   31.0.15.2756
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56308
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004539 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 74.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.499 seconds
+Domain Reload Profiling:
+	ReloadAssembly (499ms)
+		BeginReloadAssembly (53ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (366ms)
+			LoadAssemblies (52ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (82ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (225ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (43ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (74ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (73ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005328 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Denis\Game_Prototype\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Denis\Game_Prototype\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 72.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.987 seconds
+Domain Reload Profiling:
+	ReloadAssembly (987ms)
+		BeginReloadAssembly (197ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (127ms)
+		EndReloadAssembly (703ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (190ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (367ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (73ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4359 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (134.1 KB). Loaded Objects now: 4838.
+Memory consumption went from 254.2 MB to 254.1 MB.
+Total: 2.812300 ms (FindLiveObjects: 0.236200 ms CreateObjectMapping: 0.126600 ms MarkObjects: 2.325000 ms  DeleteObjects: 0.123600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1426787.368522 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/disabled/tileset.png
+  artifactKey: Guid(fa9008ba27d044823835d85918621932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/disabled/tileset.png using Guid(fa9008ba27d044823835d85918621932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532c66da9199e4fa906dc9f89475a52d') in 0.132111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.329118 seconds.
+  path: Assets/8Bit Music - 062022/hPop.wav
+  artifactKey: Guid(b6aac336b3545c14eb5ee56c8dd1997b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8Bit Music - 062022/hPop.wav using Guid(b6aac336b3545c14eb5ee56c8dd1997b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aff7e25c684af33014229749e119d3b8') in 0.125618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/Level1.unity
+  artifactKey: Guid(685a1d52173e4a3419d5d9d2080f1612) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1.unity using Guid(685a1d52173e4a3419d5d9d2080f1612) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae269c6e2fe9e766c832561e4fa889d4') in 0.011851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon
+  artifactKey: Guid(2661f76c4809c4fb9b4eef343e3915a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon using Guid(2661f76c4809c4fb9b4eef343e3915a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dd5356ddb12af91a0079d83f7d951ceb') in 0.008583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-back
+  artifactKey: Guid(221b7520260c04eafb1bdd35235ca4da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-back using Guid(221b7520260c04eafb1bdd35235ca4da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c315042e15f9b5a7d474f8d2af37272') in 0.006819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Additional Sprites/Key Items 16x16/Materials/00.mat
+  artifactKey: Guid(a2f264f80dcdaa742bc92ff7da2630cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Additional Sprites/Key Items 16x16/Materials/00.mat using Guid(a2f264f80dcdaa742bc92ff7da2630cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5bbf17763b9587c535b65333adb1449') in 0.039340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Additional Sprites/Key Items 16x16/Materials/01.mat
+  artifactKey: Guid(6b1e02d2bd8fc8740bef0f1c0d5d0c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Additional Sprites/Key Items 16x16/Materials/01.mat using Guid(6b1e02d2bd8fc8740bef0f1c0d5d0c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ea2c8b833049addab59d946866ba15') in 0.014895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/mole/idle
+  artifactKey: Guid(b8c5ef20ed2b24eba9d3b14c346fe272) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/mole/idle using Guid(b8c5ef20ed2b24eba9d3b14c346fe272) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c8f476e6be00e5f9159c0c3e4bd96782') in 0.006661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/misc/hearts
+  artifactKey: Guid(82c7e09e98270497688268a302d72b72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/misc/hearts using Guid(82c7e09e98270497688268a302d72b72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '10019bd3b10454cdea82b29596ed9286') in 0.006848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/treant/walk/treant-walk-back
+  artifactKey: Guid(6e04c00198b6b48bd830481702ed62fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/treant/walk/treant-walk-back using Guid(6e04c00198b6b48bd830481702ed62fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '811ed390ba230270f040880ece0ee394') in 0.007400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Scene
+  artifactKey: Guid(5f41ae091d9f7be4798cc5dbc7f22d83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Scene using Guid(5f41ae091d9f7be4798cc5dbc7f22d83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4cb170f0419524256aa7bf572b921815') in 0.008070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic
+  artifactKey: Guid(16e6903942d9bf94d9dd684620613d02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic using Guid(16e6903942d9bf94d9dd684620613d02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e46c96f83ecf96eeb156f2c18e111ff') in 0.007324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-front
+  artifactKey: Guid(d4133e4d9e1004051b24f1934d03b3b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/attack-weapon/hero-attack-front using Guid(d4133e4d9e1004051b24f1934d03b3b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '43e4494bc35593451e763d473ea161ec') in 0.008380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiny RPG Forest
+  artifactKey: Guid(a67851970746733488359193142a84ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny RPG Forest using Guid(a67851970746733488359193142a84ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '574511d5a951880a43923a23a7d3a680') in 0.007417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/treant/idle
+  artifactKey: Guid(754e3cb356a6a4aed8289da2a4e8c117) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/treant/idle using Guid(754e3cb356a6a4aed8289da2a4e8c117) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44405742bd191d9c7ef06c6c628e7cfe') in 0.006924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Script
+  artifactKey: Guid(f6e0a8c45af61e8428adb6e8a025689c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Script using Guid(f6e0a8c45af61e8428adb6e8a025689c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '89d2edea0baff332d2c83f8fa61f7ffe') in 0.009028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/waterfall animation
+  artifactKey: Guid(a9b87a1d2e53c4e6789106ac6536b371) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/waterfall animation using Guid(a9b87a1d2e53c4e6789106ac6536b371) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7004cef18829cc89fe77b4ac8caae66d') in 0.007222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/misc
+  artifactKey: Guid(68085f438a58d403499b75e0b87ae892) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/misc using Guid(68085f438a58d403499b75e0b87ae892) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '208827de1d9874456decb6cad7d5c4b4') in 0.007065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette
+  artifactKey: Guid(9aaddfc1c24876049941c1d30e4a9e23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette using Guid(9aaddfc1c24876049941c1d30e4a9e23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe8c1770a956438d16d2236a4501d664') in 0.007562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Player
+  artifactKey: Guid(cfa9631201d3f8048a776a0c31d57a58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Player using Guid(cfa9631201d3f8048a776a0c31d57a58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d08ceee921857051fac943b9400633b') in 0.007011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/misc/enemy-death
+  artifactKey: Guid(e17a35b7d94da44c89d1d1cbc65d3e38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/misc/enemy-death using Guid(e17a35b7d94da44c89d1d1cbc65d3e38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '31e0ba41e093ca442227a0293e4b9bea') in 0.008647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials
+  artifactKey: Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials using Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b86bac04938838fe9100eca666224c5a') in 0.007906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front
+  artifactKey: Guid(6a8116135c8574284ba3443b82384d49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front using Guid(6a8116135c8574284ba3443b82384d49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96fafe27fd54d3fe9afd6d28fed9f2fb') in 0.007367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/misc/gem
+  artifactKey: Guid(66894622c69964b7e8388e21d3443aae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/misc/gem using Guid(66894622c69964b7e8388e21d3443aae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1656f8947e21f267e440c1144ad7c5fe') in 0.008048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/Particle.mat
+  artifactKey: Guid(e8920094fe32960469c9a24ec2b1f94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Particle.mat using Guid(e8920094fe32960469c9a24ec2b1f94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf26a151767d013ae89d6bf8fd22f29') in 0.010761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/Particle System 2 Variant.prefab
+  artifactKey: Guid(51cdbd7f1dd970c43b1260d5042b4b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Particle System 2 Variant.prefab using Guid(51cdbd7f1dd970c43b1260d5042b4b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b98eb5828e0bf0005a140ef476ebdd') in 0.028445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Particle System.prefab
+  artifactKey: Guid(b53453fd47ef2bc47a54cbeaac0237a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Particle System.prefab using Guid(b53453fd47ef2bc47a54cbeaac0237a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491cc3a8be203d3eaf20d929fe2ce0a6') in 0.013233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Pavement 0.asset
+  artifactKey: Guid(b52eb31537a3c0f4d9b909925745af72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Pavement 0.asset using Guid(b52eb31537a3c0f4d9b909925745af72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb153bc33295c6363a88ffdd1a9d8b1b') in 0.012672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/hint.anim
+  artifactKey: Guid(85a1c110c13d32d45aea1db78d0b55e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/hint.anim using Guid(85a1c110c13d32d45aea1db78d0b55e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba372342bbd70411cd36c5c8a029bde1') in 0.016164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/sprites/particles
+  artifactKey: Guid(b3fbc04b5f7e0fe4b93e8dafca285b4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sprites/particles using Guid(b3fbc04b5f7e0fe4b93e8dafca285b4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b2d85366ef774dfcffd0ba6126a065c2') in 0.007603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant
+  artifactKey: Guid(5cd0c8b0168504d4b957e5e760366963) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant using Guid(5cd0c8b0168504d4b957e5e760366963) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '69e4eecddc1f2971b8a2108e09673439') in 0.007775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/sprites/tilesets/floors
+  artifactKey: Guid(8db614350775be04c822afcec9d7f93e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sprites/tilesets/floors using Guid(8db614350775be04c822afcec9d7f93e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f59d5d9d4cb6d452bb1c7ad83e337218') in 0.007727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero
+  artifactKey: Guid(b06f4cfcd50704b4993d14e1a2761a97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero using Guid(b06f4cfcd50704b4993d14e1a2761a97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bf5641d8348e4f54483e3ee75935a216') in 0.008950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/sprites/objects
+  artifactKey: Guid(efaa64eb2b9d53344932c6c2289640ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sprites/objects using Guid(efaa64eb2b9d53344932c6c2289640ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3bae3bb5eee789c9847876285cf4884e') in 0.008471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back
+  artifactKey: Guid(ec46a07414c0d47d48b7391e0ee40f51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back using Guid(ec46a07414c0d47d48b7391e0ee40f51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9fe8348bdc3a369d3c88ed6efc44d1d7') in 0.008306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-back
+  artifactKey: Guid(8c9b5162764604426a30aca42ef9115f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/attack/hero-attack-back using Guid(8c9b5162764604426a30aca42ef9115f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8be04ea4292bc69f0ef2d04b69759d54') in 0.007133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/treant/walk
+  artifactKey: Guid(f9107a8a4bbf8455b8a8bd796133822e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/treant/walk using Guid(f9107a8a4bbf8455b8a8bd796133822e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e05c3521dba28819250783bb63eac4c') in 0.007337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/attack
+  artifactKey: Guid(7c4b7dfd2997c441c881acff3b4604fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/attack using Guid(7c4b7dfd2997c441c881acff3b4604fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52e9a3a344d684b0a2834b42b5f100be') in 0.007788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/mole/walk/mole-walk-side
+  artifactKey: Guid(75a3f87b1f2284d99b7dfdef780c2eea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/mole/walk/mole-walk-side using Guid(75a3f87b1f2284d99b7dfdef780c2eea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '757835b6bb75e79f50e764983d3612ae') in 0.007582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/mole/walk/mole-walk-back
+  artifactKey: Guid(b66f6bddec74044f3b4feed4e5a2b528) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/mole/walk/mole-walk-back using Guid(b66f6bddec74044f3b4feed4e5a2b528) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b9bb152b69a183d5c7248ae6da1c925') in 0.009766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Wall
+  artifactKey: Guid(3835c99b2cffa6c46810cac8fe0022b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Wall using Guid(3835c99b2cffa6c46810cac8fe0022b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2f35fee30a6ab15ff5f4e8f6fdf9fe84') in 0.007481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sprites
+  artifactKey: Guid(9068b3c42dc57db4ca738bb08ea8ac2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/sprites using Guid(9068b3c42dc57db4ca738bb08ea8ac2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a6de4ca783174a7324e2d5a3813cc971') in 0.006671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Material
+  artifactKey: Guid(0379c5940f27a7049b6c9e8a3c23041e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Material using Guid(0379c5940f27a7049b6c9e8a3c23041e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '30348e0f5f6a208cbf74f14de3607e82') in 0.007056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Wall/TX Tileset Wall_49.asset
+  artifactKey: Guid(0746a94badf11734cb00883121ea7f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Wall/TX Tileset Wall_49.asset using Guid(0746a94badf11734cb00883121ea7f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e5395685d42c7af5d0dcf139e5627c') in 0.008074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_39.asset
+  artifactKey: Guid(15dd07e381bfec6488f6da823213e8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_39.asset using Guid(15dd07e381bfec6488f6da823213e8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4b97c6a990e65e022a136ee9152253') in 0.007548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_35.asset
+  artifactKey: Guid(009f3593fa7376e41a0729c7f4181615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_35.asset using Guid(009f3593fa7376e41a0729c7f4181615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10891190a097185305874d1206ee2cba') in 0.008644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground.prefab
+  artifactKey: Guid(d4e83863d09313942bd8054738fe5a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground.prefab using Guid(d4e83863d09313942bd8054738fe5a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de34e0a30698bd4481063cde0ec8c8c6') in 0.031209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Flower 2.asset
+  artifactKey: Guid(0cb9748ff72f7c74ab513387ceba11ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Flower 2.asset using Guid(0cb9748ff72f7c74ab513387ceba11ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d5db66c98026aef42e5bc21e5f8056') in 0.009219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass
+  artifactKey: Guid(3121f6ec1da5159418c5665c84e58ff8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass using Guid(3121f6ec1da5159418c5665c84e58ff8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '80fd181992a64c5589a3b82d2c53384d') in 0.006895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/Ent_test.prefab
+  artifactKey: Guid(cfc69dc9c3075754c8543807b20a0486) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Ent_test.prefab using Guid(cfc69dc9c3075754c8543807b20a0486) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8dc094a862901475c436abb90b7a4b72') in 0.029704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab
+  artifactKey: Guid(4451b78203ce1474caa69f68067a0221) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab using Guid(4451b78203ce1474caa69f68067a0221) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1a91f63e09650808ed5e2b9450be085') in 0.007960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Additional Sprites/FireBall/2.png
+  artifactKey: Guid(ea3193404a697844d9155ab73df5c6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Additional Sprites/FireBall/2.png using Guid(ea3193404a697844d9155ab73df5c6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48206d9e27042f62b0ad5627c1b7e5c7') in 0.014306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Wall.prefab
+  artifactKey: Guid(8d8700121f1eb2c4abda7e8a3dafab76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Wall.prefab using Guid(8d8700121f1eb2c4abda7e8a3dafab76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc726a52e7f571ab98e9f25b457061c9') in 0.030154 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (124.7 KB). Loaded Objects now: 4885.
+Memory consumption went from 171.3 MB to 171.2 MB.
+Total: 4.038300 ms (FindLiveObjects: 0.239900 ms CreateObjectMapping: 0.120400 ms MarkObjects: 3.537000 ms  DeleteObjects: 0.139900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 51.042706 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/bush.png
+  artifactKey: Guid(dbc624f7b3a644dcf989e434e63d9a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/bush.png using Guid(dbc624f7b3a644dcf989e434e63d9a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da85e3d43421c5b944d26e74c028420') in 0.018015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.401734 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_92.asset
+  artifactKey: Guid(033a0f5b512b82d479a2e60f7b0e0ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_92.asset using Guid(033a0f5b512b82d479a2e60f7b0e0ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd9e592ccb7ff6d60522fbb4b187129') in 0.007770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_111.asset
+  artifactKey: Guid(2636a91952e75ad40b94badcba8eb4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_111.asset using Guid(2636a91952e75ad40b94badcba8eb4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fffe33285aae5d4c40fa101d3db5b192') in 0.010057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_117.asset
+  artifactKey: Guid(2a66c5fbc44124e4ea589e601409dec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_117.asset using Guid(2a66c5fbc44124e4ea589e601409dec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2108ff0400dc53b9e2f9e5d550b12452') in 0.008395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_108.asset
+  artifactKey: Guid(9b58b311b37fef64594c9feb677d6be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_108.asset using Guid(9b58b311b37fef64594c9feb677d6be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9219e2049446bec83707917993d3d887') in 0.007555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_100.asset
+  artifactKey: Guid(9811bdad59e23b14aab1db1c21fcffc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_100.asset using Guid(9811bdad59e23b14aab1db1c21fcffc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731f422edf3707f456b12777dbda49f0') in 0.008244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_99.asset
+  artifactKey: Guid(2014efd8bc7ea6b42bb3cdf8eb5b0d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_99.asset using Guid(2014efd8bc7ea6b42bb3cdf8eb5b0d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d80560a561bfc15d81d59569268148') in 0.008248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.154031 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_122.asset
+  artifactKey: Guid(d291830d12a803a46a744ad1808a8d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_122.asset using Guid(d291830d12a803a46a744ad1808a8d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5055571cb322f9ebb43f7bddf197425') in 0.007885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_129.asset
+  artifactKey: Guid(17a7aae863e475048bb099a35262518a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_129.asset using Guid(17a7aae863e475048bb099a35262518a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7db3891b6ecc3c49898777261ff7da') in 0.008658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027340 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_139.asset
+  artifactKey: Guid(fc2a1b32c707204419835a00e8e51a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_139.asset using Guid(fc2a1b32c707204419835a00e8e51a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4905120e6a942d7e569ceab9f6527f48') in 0.008320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_158.asset
+  artifactKey: Guid(e51860917d8bfb24db960202b5821324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_158.asset using Guid(e51860917d8bfb24db960202b5821324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6709987d5c46922a7e13597845fe05ee') in 0.008221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_172.asset
+  artifactKey: Guid(4235cfe0d41a1e147ae9bcc4b67df8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_172.asset using Guid(4235cfe0d41a1e147ae9bcc4b67df8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fffed5c0f03ca1607ceb2405eaeb541') in 0.008148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_144.asset
+  artifactKey: Guid(4762bd58fea928c46bd37b326cb1d1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_144.asset using Guid(4762bd58fea928c46bd37b326cb1d1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db770354e642ce87ccdb558510ac6e97') in 0.008810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_186.asset
+  artifactKey: Guid(c23a5e72303eba44e8d4212b5c760eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_186.asset using Guid(c23a5e72303eba44e8d4212b5c760eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '301051683c478d573beb9277d955a5aa') in 0.008973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_180.asset
+  artifactKey: Guid(8ef45a5442e14114191aa5990786ce37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_180.asset using Guid(8ef45a5442e14114191aa5990786ce37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cbb7805dd3ecb84c07d654be20588a3') in 0.007933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_153.asset
+  artifactKey: Guid(289eb530fb88b0246934e4680d0ab62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_153.asset using Guid(289eb530fb88b0246934e4680d0ab62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36dfbbf0d39bee62f3d26368adca931d') in 0.008063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_145.asset
+  artifactKey: Guid(a700b24302bdd9b47bcbc2f07737f083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_145.asset using Guid(a700b24302bdd9b47bcbc2f07737f083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17b7a19ab7fc0fc4abf98ecd5fc1a2d') in 0.009179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_149.asset
+  artifactKey: Guid(ef0d702b840d7284791fb3c459375a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_149.asset using Guid(ef0d702b840d7284791fb3c459375a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397c5b9dab10bb47b1e30d8c41d218aa') in 0.007891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_160.asset
+  artifactKey: Guid(abf4ee5bf4c40504f8c7d51f223a9d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_160.asset using Guid(abf4ee5bf4c40504f8c7d51f223a9d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2459344a2b4d01e2785318d73031ccb') in 0.007544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_178.asset
+  artifactKey: Guid(20d6783e27fe77747b92eeb69e31bd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_178.asset using Guid(20d6783e27fe77747b92eeb69e31bd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78e04f4b8a5d9d07ebd2680183cc1f5') in 0.008544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.094505 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_194.asset
+  artifactKey: Guid(d6dd8a10d47e7db4e8c37a6a359a3b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_194.asset using Guid(d6dd8a10d47e7db4e8c37a6a359a3b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4385cbcacfa336c5aa80fbbf3d16fa') in 0.008459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_200.asset
+  artifactKey: Guid(2afed7bab0a39844ebfdf3b621afaf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_200.asset using Guid(2afed7bab0a39844ebfdf3b621afaf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc9bf612a08b16db48bc57629bccf76') in 0.008253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025166 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_203.asset
+  artifactKey: Guid(c5c89eed8e4eea44eb0ee8457fb9b962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_203.asset using Guid(c5c89eed8e4eea44eb0ee8457fb9b962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba037328b523fc76837fa6f38cc502b') in 0.008941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_213.asset
+  artifactKey: Guid(e2a6cd433be0f4d49b4e2aa4221fc774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_213.asset using Guid(e2a6cd433be0f4d49b4e2aa4221fc774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ebb138c8ea2bd45af809e0357449709') in 0.008344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_222.asset
+  artifactKey: Guid(306f38e5278b90a419d3818a29e17639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_222.asset using Guid(306f38e5278b90a419d3818a29e17639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19c1500b32abebedcc0cbb163bb5a12') in 0.008553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_225.asset
+  artifactKey: Guid(a8a796175f21317419c3725ed7fa7ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_225.asset using Guid(a8a796175f21317419c3725ed7fa7ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf63c55c71dda5148a6ce55ae443ab23') in 0.008044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_215.asset
+  artifactKey: Guid(9e21954272a6fc546974f792426725a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_215.asset using Guid(9e21954272a6fc546974f792426725a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20f55a45ad67f9084f3eebdd0664875') in 0.007708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_228.asset
+  artifactKey: Guid(331cf3a3d7e5d6b4ab1191b3b451de9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_228.asset using Guid(331cf3a3d7e5d6b4ab1191b3b451de9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7cb07c0fb50c9cf56ac20e45501203') in 0.008628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_214.asset
+  artifactKey: Guid(92383a5ed63fc8a49b73d8ff8cbf6a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_214.asset using Guid(92383a5ed63fc8a49b73d8ff8cbf6a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4614c0268acf8e6382e261c9a72557e3') in 0.007616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.146014 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_239.asset
+  artifactKey: Guid(5523da414380ac349bf2ed4e4e7a11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_239.asset using Guid(5523da414380ac349bf2ed4e4e7a11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc943af457a745f126de900811d068ed') in 0.008646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_245.asset
+  artifactKey: Guid(b1e8f85f322fcfe488d8397231cb070f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_245.asset using Guid(b1e8f85f322fcfe488d8397231cb070f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74d074df22833f1556b71e0a62e73bd') in 0.008777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_246.asset
+  artifactKey: Guid(2d6b69151c7909c4fa3f1b1bef313ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_246.asset using Guid(2d6b69151c7909c4fa3f1b1bef313ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0374adca02262f7028d283c9f1ca87e') in 0.008520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_252.asset
+  artifactKey: Guid(fd83dcc77b9cef347bac70872352cfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_252.asset using Guid(fd83dcc77b9cef347bac70872352cfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9881ad181955aeba1ebcac91477e81db') in 0.008474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017990 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_257.asset
+  artifactKey: Guid(3793a81f6106a484a994bdda74066ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_257.asset using Guid(3793a81f6106a484a994bdda74066ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b1c304dcb38f6cee091df708c96bd36') in 0.008301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_261.asset
+  artifactKey: Guid(2ccabeda8b55fe7409510d4cdc711a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_261.asset using Guid(2ccabeda8b55fe7409510d4cdc711a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a679302e9762c2cc1660b453be1e031e') in 0.008488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_289.asset
+  artifactKey: Guid(545c9412e60568b4c8bed70a26687bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_289.asset using Guid(545c9412e60568b4c8bed70a26687bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda7317da21c84ecf8cad96a7313496a') in 0.008584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_287.asset
+  artifactKey: Guid(a781d11d27b65de46a18503746c84bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_287.asset using Guid(a781d11d27b65de46a18503746c84bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471073737931311d173c3ff708728aae') in 0.008993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_269.asset
+  artifactKey: Guid(e0ed158228bb59f43957241be6fe5188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_269.asset using Guid(e0ed158228bb59f43957241be6fe5188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330768c02ef003f95c361fca8bcb3cd2') in 0.008179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_277.asset
+  artifactKey: Guid(c1fdfef383d53ed4998dc913d345985f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_277.asset using Guid(c1fdfef383d53ed4998dc913d345985f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b7cd0aceeac9713153e033038f801f') in 0.009046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_262.asset
+  artifactKey: Guid(c2dc8a82f86fc7f42bf45de031c591d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_262.asset using Guid(c2dc8a82f86fc7f42bf45de031c591d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edef764ccc24fee1050a9a61e0dffc34') in 0.007323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.139421 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_293.asset
+  artifactKey: Guid(3337821d23ef5fa4fa5adddbbad7b680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_293.asset using Guid(3337821d23ef5fa4fa5adddbbad7b680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85fdb2219d83b4fea96f2d2455f803bf') in 0.008458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_301.asset
+  artifactKey: Guid(9605ca9974664194a9ddc316acc3f640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_301.asset using Guid(9605ca9974664194a9ddc316acc3f640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f13dc9ecfa9ce245673e7f4a68a88a8') in 0.008839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_299.asset
+  artifactKey: Guid(6c0325b7fc1a3c540a20b438ccdb6a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_299.asset using Guid(6c0325b7fc1a3c540a20b438ccdb6a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5305e0e1b387e33af7bef1fed19ed6') in 0.010012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_298.asset
+  artifactKey: Guid(ff8369fb53189d345ace852c767100ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_298.asset using Guid(ff8369fb53189d345ace852c767100ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d80a7dc24f2d6b3831192561d02bb3') in 0.008506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_312.asset
+  artifactKey: Guid(ab6b9d16c475e884fb59105b713c72a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_312.asset using Guid(ab6b9d16c475e884fb59105b713c72a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd37a00f39777afa7cd11fe0b086e83') in 0.008829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_399.asset
+  artifactKey: Guid(9318acbf5b9148e419490f8daf054a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_399.asset using Guid(9318acbf5b9148e419490f8daf054a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf666fb003661ac2c4351483c45225c') in 0.009767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tree-dried.png
+  artifactKey: Guid(db07cc93e21f1457d9a1364618027fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tree-dried.png using Guid(db07cc93e21f1457d9a1364618027fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483d252e9d6d67197f5318e04134e8e7') in 0.022620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_398.asset
+  artifactKey: Guid(4f5027f8767af3949803bb79f40e23eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_398.asset using Guid(4f5027f8767af3949803bb79f40e23eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a3794767b4ef58833971b271fc5de0') in 0.008932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.638669 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_382.asset
+  artifactKey: Guid(ba3a81fb26da939498242cdbec575723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_382.asset using Guid(ba3a81fb26da939498242cdbec575723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c146bbc4a29eaed788a241a16cec7784') in 0.008690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_370.asset
+  artifactKey: Guid(42cbe7a1add59334784eb59bc97c57a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_370.asset using Guid(42cbe7a1add59334784eb59bc97c57a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da17fd026f27b12dda2963340ec7df43') in 0.008140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_376.asset
+  artifactKey: Guid(6fa1b55243655c845996efe7710ecd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_376.asset using Guid(6fa1b55243655c845996efe7710ecd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a8bd3f5c03c03c88ab50c54b454adb') in 0.007942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_375.asset
+  artifactKey: Guid(9719a0cfe8ed033499985b84a7d289f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_375.asset using Guid(9719a0cfe8ed033499985b84a7d289f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49ffe87ac68dfb13a9de408d7d5ae5f') in 0.009335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_333.asset
+  artifactKey: Guid(13fd440c362230a43a7cb5cd029ca1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_333.asset using Guid(13fd440c362230a43a7cb5cd029ca1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beea01e35437608dfda6aa32502eee1a') in 0.008551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_340.asset
+  artifactKey: Guid(2d8788e8ae0632045befcfe873360d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_340.asset using Guid(2d8788e8ae0632045befcfe873360d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0702dd321e6c2a5b6f4990c495b138d') in 0.008192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_339.asset
+  artifactKey: Guid(3da23883212302e4d9323cca65f37d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_339.asset using Guid(3da23883212302e4d9323cca65f37d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f1f9ad6477158524876e4992e76438') in 0.008132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_330.asset
+  artifactKey: Guid(c5b16061f1f001449a0d31121534fda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_330.asset using Guid(c5b16061f1f001449a0d31121534fda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8577c5473a7df9f1d5286bba49525a0') in 0.007364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_323.asset
+  artifactKey: Guid(a08684123ea65f9428938b0892a20a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_323.asset using Guid(a08684123ea65f9428938b0892a20a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ae60e788c264e0bfc17d6af9457dd3') in 0.007585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_326.asset
+  artifactKey: Guid(0cb023ab4cb4cdf4b83f910ec5dcc73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_326.asset using Guid(0cb023ab4cb4cdf4b83f910ec5dcc73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a737a584f97bdd59bf0f7ac0966b51') in 0.007742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_389.asset
+  artifactKey: Guid(3e163155561681d48af8f1dc530243d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_389.asset using Guid(3e163155561681d48af8f1dc530243d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c1162504c39a24170549a664cdb5c6') in 0.007081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_337.asset
+  artifactKey: Guid(4d0d43a32f0e63c408469aa1995d43a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tileset-sliced_337.asset using Guid(4d0d43a32f0e63c408469aa1995d43a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e2326e27a9228ca20a4c8056816b78') in 0.008422 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
